@@ -13,11 +13,13 @@ const { ADMIN } = roles;
  * @description Creates the admin account
  */
 const createAdmin = async () => {
+  const username = "admin"
   const password = await generateHashedPassword(process.env.ADMIN_PASSWORD);
   const adminData = {
     firstName: 'Jane',
     lastName: 'Doe',
     phoneNumber: process.env.ADMIN_PHONE,
+    username,
     password,
     address: 'KK 185 St, 211, 10th Floor, 1',
     status: true,
