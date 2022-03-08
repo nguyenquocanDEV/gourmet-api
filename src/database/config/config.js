@@ -11,11 +11,11 @@ const {
   CI_DB_NAME,
   CI_DB_HOSTNAME,
   CI_DB_PORT,
-  PROD_DB_USERNAME,
-  PROD_DB_PASSWORD,
-  PROD_DB_NAME,
-  PROD_DB_HOSTNAME,
-  PROD_DB_PORT,
+  PROD_DB_USERNAME ="vajzngiqbxnplt",
+  PROD_DB_PASSWORD="a9613c49126d096b3150b4aa91f4ab03ab9b946ee0dc10d27bbdf5b167dfb516",
+  PROD_DB_NAME="d906ajlvflkqi6",
+  PROD_DB_HOSTNAME="ec2-3-230-238-86.compute-1.amazonaws.com",
+  PROD_DB_PORT="5432",
 } = process.env;
 
 module.exports = {
